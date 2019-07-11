@@ -1,7 +1,7 @@
-#Images
+# Images
 Manage images with different entities
 
-##Requirements
+## Requirements
 - PHP >=5.4
 - Fileinfo Extension
 
@@ -10,7 +10,7 @@ Manage images with different entities
 - GD Library (>=2.0)
 - Imagick PHP extension (>=6.5.7)
 
-##Installation
+## Installation
 `composer require nour/images`
 
 After you have installed Intervention Image, open your Laravel config file config/app.php and add the following lines.
@@ -35,7 +35,7 @@ $user->photo($request->file('photo'))->width(756)->height(425)->upload();
 $user->Image;
 ```
 
-##Storage
+## Storage
 All images store in :
 `public\images\{model_name}`
 please create a correct folder path
