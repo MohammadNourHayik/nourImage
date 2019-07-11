@@ -1,0 +1,20 @@
+{
+    "name": "nour/images",
+    "description": "manage images with different entities",
+    "require": {
+        "intervention/image": "2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Nour Hyik",
+            "email": "n-4i@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nour\\Images\\": "src/"
+        }
+    }
+}
