@@ -2,6 +2,7 @@
 
 namespace Nour\Images\Providers;
 
+use App\User;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
 class ImagesServiceProvider extends ServiceProvider
@@ -29,11 +30,6 @@ class ImagesServiceProvider extends ServiceProvider
 
     protected function registerBladeExtensions()
     {
-        $this->app->afterResolving('blade.compiler', function (BladeCompiler $bladeCompiler) {
-            $bladeCompiler->directive('photo', function ($arguments) {
-                return "{{ url($arguments) }}";
-            });
 
-        });
     }
 }

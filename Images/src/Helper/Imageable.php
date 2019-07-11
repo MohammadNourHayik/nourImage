@@ -57,7 +57,7 @@ trait Imageable
             return false;
         }
     }
-    public function getPath(){
+    public function getSrc(){
         return $this->src;
     }
 
