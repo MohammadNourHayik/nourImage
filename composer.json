@@ -16,5 +16,10 @@
         "psr-4": {
             "Nour\\Images\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": [
+            "Nour\\Images\\Providers\\ImagesServiceProvider"
+        ]
     }
 }
