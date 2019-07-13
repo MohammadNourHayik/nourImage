@@ -32,6 +32,9 @@ $user->photo($request->file('photo'))->upload();
 // resize image instance
 $user->photo($request->file('photo'))->width(756)->height(425)->upload();
 
+//get image src
+$user->getImage()
+
 // get image model
 $user->Image;
 ```

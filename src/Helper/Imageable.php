@@ -60,6 +60,9 @@ trait Imageable
     public function getSrc(){
         return $this->src;
     }
+    public function getImage(){
+        return $this->Image->src;
+    }
 
     public function Image(){
         return $this->morphOne(ImageModel::class,'imagable');
