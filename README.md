@@ -42,7 +42,13 @@ $user->Image;
 ```
 
 ## Storage
+
+in each model add :
+`protected $photoPath="{path}";`
+ex: 
+`protected $photoPath="user";`
+
 All images store in :
-- `public\images\{model_name}`
+- `public\images\$photoPath`
 - please create a correct folder path
 
