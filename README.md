@@ -21,6 +21,8 @@ In the $providers array add the service providers for this package.
 
 add `Imageable` in each model you want use image manager with it.
 - ex: ` use Notifiable,Imageable;`
+
+`php artisan migrate`
 ## Code Examples
 
 ```php
